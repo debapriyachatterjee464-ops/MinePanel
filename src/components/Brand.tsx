@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 export function Brand() {
   return (
     <Link className="brand" to="/" aria-label="MinePanel home">
-      <span className="brand-mark" aria-hidden="true">
-        <span />
-        <span />
-        <span />
-      </span>
+      <img className="brand-icon" src="/assets/minepanel-app-icon.png" alt="" aria-hidden="true" />
       <span>MinePanel</span>
     </Link>
   );

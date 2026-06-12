@@ -49,8 +49,7 @@ p { line-height: 1.7; color: var(--muted); }
 .site-header { position: sticky; top: 0; z-index: 100; height: 76px; background: rgba(247,249,251,.83); border-bottom: 1px solid rgba(187,202,191,.6); backdrop-filter: blur(18px); }
 .nav-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 11px; font-weight: 700; font-size: 22px; color: #006a47; }
-.brand-mark { width: 29px; height: 29px; display: flex; align-items: center; justify-content: center; gap: 2px; border-radius: 7px; background: linear-gradient(145deg,#13ba82,#05825a); box-shadow: inset 0 0 0 1px rgba(0,0,0,.08); }
-.brand-mark span { display: block; width: 3px; height: 12px; background: white; border-radius: 2px; }
+.brand-icon { width:36px; height:36px; flex:0 0 auto; border-radius:9px; object-fit:cover; box-shadow:0 5px 14px rgba(15,23,42,.16); }
 .main-nav { display: flex; align-items: center; gap: 34px; font-size: 14px; font-weight: 550; }
 .main-nav > a:not(.button) { padding: 10px 0; color: #34433a; border-bottom: 1px solid transparent; }
 .main-nav > a.active { color: #006c49; border-color: #006c49; }
@@ -124,7 +123,7 @@ p { line-height: 1.7; color: var(--muted); }
 .product-preview { aspect-ratio:1280/820; display:grid; grid-template-columns:205px 1fr; background:#07090c; color:#eef2f5; font-size:11px; }
 .preview-sidebar { padding:22px 14px; border-right:1px solid #252a31; background:#090b0f; }
 .preview-brand { display:flex; align-items:center; gap:9px; padding:0 8px 20px; font-weight:700; }
-.preview-brand span { width:26px; height:26px; display:grid; place-items:center; border-radius:6px; background:#043c2e; color:#5fe4ab; font-size:8px; }
+.preview-brand img { width:27px; height:27px; border-radius:7px; object-fit:cover; }
 .preview-sidebar nav { display:grid; gap:5px; }
 .preview-sidebar nav > * { padding:11px 12px; border-radius:5px; color:#838b96; font-weight:500; }
 .preview-sidebar nav b { background:#191c22; color:white; }
@@ -403,7 +402,7 @@ p { line-height: 1.7; color: var(--muted); }
   .product-preview { grid-template-columns:88px 1fr; font-size:8px; }
   .preview-sidebar { padding:12px 7px; }
   .preview-brand { padding:0 3px 11px; font-size:0; }
-  .preview-brand span { font-size:7px; }
+  .preview-brand img { width:24px; height:24px; }
   .preview-sidebar nav > * { padding:7px 5px; font-size:7px; }
   .preview-main > header { height:42px; padding:0 10px; }
   .preview-content { padding:11px; }
