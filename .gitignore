@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.tsbuildinfo
+*.log
+
+# Local design/source references
+UI/
+Example.md
+PUBLIC_WEBSITE_BUILDER_SPEC.md
+
+# Release binaries are published as GitHub Release assets.
+public/*.exe
+public/*.deb

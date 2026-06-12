@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minepanel.vercel.app/sitemap.xml
