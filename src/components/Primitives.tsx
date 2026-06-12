@@ -51,7 +51,7 @@ export function ProductWindow({ className = "" }: { className?: string }) {
       <div className="window-bar"><span/><span/><span/><b>MinePanel Local</b></div>
       <div className="product-preview" role="img" aria-label="MinePanel Local server dashboard with privacy-safe example data">
         <aside className="preview-sidebar">
-          <div className="preview-brand"><img src="/assets/minepanel-app-icon.png" alt="" aria-hidden="true" /> MinePanel</div>
+          <div className="preview-brand"><img src="/assets/minepanel-icon-v2.png" alt="" aria-hidden="true" /> MinePanel</div>
           <nav><b>Dashboard</b><span>Create Server</span><span>Settings</span></nav>
         </aside>
         <div className="preview-main">
