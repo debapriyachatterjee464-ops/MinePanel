@@ -1,0 +1,6 @@
+dist
+UI
+public/*.exe
+public/*.deb
+PUBLIC_WEBSITE_BUILDER_SPEC.md
+Example.md

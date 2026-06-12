@@ -11,3 +11,5 @@ PUBLIC_WEBSITE_BUILDER_SPEC.md
 # Release binaries are published as GitHub Release assets.
 public/*.exe
 public/*.deb
+
+.vercel
